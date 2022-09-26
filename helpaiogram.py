@@ -1,4 +1,4 @@
-import sys
+import aiogram
 from googletrans import Translator
 
 
@@ -18,38 +18,13 @@ for i in dir(__builtins__):
         k += 1
 
 
-# class test():
-#     def __init__(self, an, b, ver):
-#         self.an = an
-#         self.b = b
-#         self.ver = ver
-#         print(an + b + ver)
-
-#     def sm(self, an, b, ver):
-#         print(an + b + ver)
-#         return an + b + ver
-
-#     def hi(self, k):
-#         print(str(k))
-
-#     def sr(self, no):
-#         if no > 5:
-#             print('число больше 5')
-#         else:
-#             print('число меньше 5')
-
-# print('!!!!-------------------------------------------------------------')
+# print('!!!!e------------------------------------------------------------')
 # print('zip'.__doc__)
 # print('!!!!-------------------------------------------------------------')
 # print(dir(zip))
 # print('!!!!-------------------------------------------------------------')
 # print(help(zip))
 
-
-# ty = test(1, 1, 1)
-# ty.sm(1, 1, 1)
-# numb = int(input("введите число: "))
-# ty.sr(numb)
 
 with open('test.txt', 'w') as f:
     sys.stdout = f
